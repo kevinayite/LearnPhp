@@ -1,0 +1,155 @@
+/* Add this CSS in a <style> tag in your HTML <head> or link to an external CSS file */
+
+/* Resetting default margin and padding for elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the navigation bar */
+nav {
+    text-align: right;
+    padding: 20px;
+    /* Adjust the spacing as needed */
+    background-color: linen;
+    /* Set the background color */
+}
+
+.aboutheader {
+    width: 100%;
+    height: auto;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul a {
+    color: green;
+    text-decoration: none;
+    margin: 0 10px;
+    /* Adjust the spacing between links */
+}
+
+/* Style for the header */
+header {
+    background-color: white;
+    /* Set the background color for the header */
+    padding: 10px;
+}
+
+/*footer */
+
+footer {
+    width: 100%;
+    display: inline-block;
+    background: #171717;
+}
+
+.down {
+    display: flex;
+    justify-content: space-around;
+}
+
+.down h3 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px;
+
+    color: #f1f1f1;
+    font-weight: 600;
+}
+
+#dernier ul {
+    list-style: none;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+#dernier li {
+    padding: 5px;
+    text-align: center;
+}
+
+#dernier a {
+    text-decoration: none;
+    font-size: medium;
+}
+
+#dernier a:hover {
+    background: #aaaaaa;
+    transition: 0.5s;
+    font-weight: 400;
+
+}
+
+
+
+
+.media {
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+/* About page */
+.vision {
+    width: 50%;
+    padding: 25px;
+    float: left;
+}
+
+.vision h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.misAndvis {
+    display: flex;
+    justify-content: inline-block;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.mission {
+    width: 50%;
+    padding: 25px;
+}
+
+.mission h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*      picture gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+ .popup_mess {
+     background-color: #3e3e;
+     color: #0077b6;
+     padding: 20px;
+     text-align: center;
+     margin: 0 auto;
+     padding: 10px;
+     background-color: #fff;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+     border-radius: 5px;
+     max-width: 500px;
+     font-weight: 600;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: large;
+     font-style: normal;
+ }
